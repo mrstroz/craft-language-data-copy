@@ -1,0 +1,40 @@
+{
+    "name": "mrstroz/language-data-copy",
+    "description": "Copy data to other languages",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "language-data-copy"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/mrstroz/craft-language-data-copy/language-data-copy/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/mrstroz/craft-language-data-copy/language-data-copy/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mariusz Stróż",
+            "homepage": "inwave.pl"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "mrstroz\\languagedatacopy\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "language-data-copy",
+        "handle": "language-data-copy",
+        "hasCpSettings": false,
+        "hasCpSection": true,
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/mrstroz/craft-language-data-copy/language-data-copy/master/CHANGELOG.md",
+        "class": "mrstroz\\languagedatacopy\\Languagedatacopy"
+    }
+}
